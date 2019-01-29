@@ -452,15 +452,15 @@ $.i18n.lang = $.extend(true, $.i18n.lang || {}, {
 
 hu: {
     title: 'ONI gejzír kalkulátor (Előnézet)',
-    sub_title: 'Bon geyser non inclus',
+    sub_title: '',
     issue: 'Problémák/Ötletek',
     how_is_it_work: 'Hogy működik?',
 
-    fill_geyser_info: 'Remplissez les informations du geyser',
-    Geyser_Information: 'Informations du geyser',
-    Please_fill_the_geyser_information: 'Veuillez remplir les informations du geyser.',
-    and_click_cal: 'Et cliquez sur "Calculer".',
-    cal: 'Calculer',
+    fill_geyser_info: 'Add meg a gejzír adatait',
+    Geyser_Information: 'Gejzír adatai',
+    Please_fill_the_geyser_information: 'Kérlek töltsd ki a gejzír adatait,',
+    and_click_cal: 'majd klikkelj a "Számol" gombra',
+    cal: 'Számol',
     better_than: 'Mieux que le ${0}% du même type de geyser.',
     average_daily_output: 'Moyenne réelle de production par seconde : ${0} kg/s',
     geyser_tile_cycle_output: 'Dépôt: ${0} kg/bloc, ${1} blocs/cycle',
