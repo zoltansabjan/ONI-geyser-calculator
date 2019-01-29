@@ -448,6 +448,68 @@ $.i18n.lang = $.extend(true, $.i18n.lang || {}, {
     Electrolyzer:'电解肥宅快乐水 ${0}g/s， ${1}个',
     Fertilizer_Synthesizer:'肥宅快乐料 ${0}g/s， ${1}个',
     Carbon_Skimmer:'肥宅快乐碳 ${0}g/s， ${1}个',
+  },
+
+hu: {
+    title: 'ONI gejzír kalkulátor (Előnézet)',
+    sub_title: 'Bon geyser non inclus',
+    issue: 'Problémák/Ötletek',
+    how_is_it_work: 'Hogy működik?',
+
+    fill_geyser_info: 'Remplissez les informations du geyser',
+    Geyser_Information: 'Informations du geyser',
+    Please_fill_the_geyser_information: 'Veuillez remplir les informations du geyser.',
+    and_click_cal: 'Et cliquez sur "Calculer".',
+    cal: 'Calculer',
+    better_than: 'Mieux que le ${0}% du même type de geyser.',
+    average_daily_output: 'Moyenne réelle de production par seconde : ${0} kg/s',
+    geyser_tile_cycle_output: 'Dépôt: ${0} kg/bloc, ${1} blocs/cycle',
+
+
+    RT_Eruption: 'Taux d\'eruption', //character escape (?) please change if i'm wrong
+    Eruption_Period: 'Période d\'éruption', // char_esc
+    Acitve_Period: 'Période d\'activité', //original var acitve, char_esc
+    g: 'g',
+    s: 's',
+    cycle: 'cycles',
+    per: ' ', // there is not this string in the game, but you can use 'pour'
+    every: 'tous les',
+
+    Cool_Steam_Vent: 'Fumerolle de vapeur fraîche',
+    Steam_Vent: 'Fumerolle de vapeur',
+    Water_Geyser: 'Geyser d\'eau', // char_esc
+    Cool_Slush_Geyser: 'Geyser de neige fondue froide',
+    Polluted_Water_Vent: 'Fumerolle d\'eau polluée', //char_esc
+    Minor_Volcano: 'Volcan mineur',
+    Volcano: 'Volcan',
+    Carbon_Dioxide_Geyser: 'Geyser de dioxyde de carbone',
+    Carbon_Dioxide_Vent: 'Fumerolle de dioxyde de carbone',
+    Hydrogen_Vent: 'Fumerolle d\'hydrogène', //char_esc
+    Polluted_Oxygen_Vent: 'Fumerolle d\'oxygène pollué', //char_esc
+    Infectious_Polluted_Oxygen_Vent: 'Fumerolle d\'oxygène pollué infectieux', //char_esc
+    Chlorine_Gas_Vent: 'Fumerolle de chlore gazeux',
+    Natural_Gas_Geyser: 'Geyser de gaz naturel',
+    Copper_Volcano: 'Volcan de cuivre',
+    Iron_Volcano: 'Volcan de fer',
+    Gold_Volcano: 'Volcan d\'or', //char_esc
+    Leaky_Oil_Fissure: 'Fissure de pétrole brut',
+
+    or: 'ou',
+    click_here: 'cliquez ici',
+    to_upload_your_cap: 'Pour télécharger votre capture d\'écran du geyser.', //char_esc
+    finish_recognition: 'La reconnaissance est terminée. le résultat de la reconnaissance peut être incorrect. Veuillez vérifier et cliquer sur "Calculer"',
+    reupload: 'Télécharger à nouveau',
+    image_too_large: 'La taille de l\'image est trop grande.', //char_esc`
+
+    use_up_information:'Machines & Plants Ratio',
+    Bristle_Blossom:'Bristle Blossom Comsumption ${0} g/s, Number ${1}',
+    Sleet_Wheat:'Sleet Wheat Comsumption ${0} g/s, Number ${1}',
+    Pincha_Pepper:'Pincha Pepper Comsumption ${0} g/s, Number ${1}',
+    Thimble_Reed:'Thimble Reed Comsumption ${0} g/s, Number ${1}',
+    Oil_Well:'Oil Well Comsumption ${0} g/s, Number ${1}',
+    Electrolyzer:'Electrolyzer Comsumption ${0} g/s, Number ${1}',
+    Fertilizer_Synthesizer:'Fertilizer Synthesizer Comsumption ${0} g/s, Number ${1}',
+    Carbon_Skimmer:'Carbon Skimmer Comsumption ${0} g/s, Number ${1}',
   }
 
 })
